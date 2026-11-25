@@ -6,7 +6,7 @@ This public repository holds documentation, a logo, and the official MCP registr
 
 - MCP URL: `https://bettingtipsai.com/api/mcp`
 - Transport: Streamable HTTP
-- Registry name: `com.bettingtipsai/tips`
+- Registry name: `com.collatiomedia/bettingtipsai` (version 1.0.2)
 - Docs: https://bettingtipsai.com/docs
 
 ## Authentication and limits
@@ -98,7 +98,7 @@ Content is for users aged 18 or over. Predictions are informational only. They a
 
 ## Manifest and logo
 
-- [`server.json`](server.json) is the Official MCP Registry manifest (remote Streamable HTTP). It has not been published yet.
+- [`server.json`](server.json) is the Official MCP Registry manifest (remote Streamable HTTP) for `com.collatiomedia/bettingtipsai` version 1.0.2.
 - [`logo-512.png`](logo-512.png) is a 512x512 PNG copy of the live logo at https://bettingtipsai.com/brand/logo-512.png
 
 ## License
