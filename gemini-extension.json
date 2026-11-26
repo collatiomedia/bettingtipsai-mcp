@@ -1,0 +1,12 @@
+{
+  "name": "bettingtipsai",
+  "version": "1.0.2",
+  "description": "Read-only football and cricket match tips. A free bettingtipsai.com account and OAuth sign-in are required. 18+.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "bettingtipsai": {
+      "url": "https://bettingtipsai.com/api/mcp",
+      "type": "http"
+    }
+  }
+}

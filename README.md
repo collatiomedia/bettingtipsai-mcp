@@ -77,6 +77,18 @@ Run **MCP: Add Server** from the Command Palette and choose an HTTP server, or a
 
 Sign in when VS Code opens the Betting Tips AI authorization page.
 
+### Gemini CLI
+
+Install the extension from this repository:
+
+```
+gemini extensions install https://github.com/collatiomedia/bettingtipsai-mcp
+```
+
+A free [bettingtipsai.com](https://bettingtipsai.com) account and OAuth sign-in are required. Sign in when the CLI opens a browser. Content is for users aged 18 or over. Please gamble responsibly.
+
+The manifest is [`gemini-extension.json`](gemini-extension.json). Context for the model is in [`GEMINI.md`](GEMINI.md).
+
 ### Grok
 
 In Grok or Grok Bot, add a custom MCP server with this URL:
@@ -99,6 +111,8 @@ Content is for users aged 18 or over. Predictions are informational only. They a
 ## Manifest and logo
 
 - [`server.json`](server.json) is the Official MCP Registry manifest (remote Streamable HTTP) for `com.collatiomedia/bettingtipsai` version 1.0.2.
+- [`gemini-extension.json`](gemini-extension.json) is the Gemini CLI extension manifest for the same remote server.
+- [`GEMINI.md`](GEMINI.md) is the extension context file (account, OAuth, and 18+ / responsible gambling note).
 - [`logo-512.png`](logo-512.png) is a 512x512 PNG copy of the live logo at https://bettingtipsai.com/brand/logo-512.png
 
 ## License
